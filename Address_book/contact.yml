@@ -1,0 +1,21 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses: []
+  first_name: Andriy
+  last_name: Shevchyk
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: home
+    number: '0964128312'
+  addresses:
+  - !ruby/object:Address
+    kind: work
+    street_1: Stepana
+    street_2: banderu
+    city: Lviv
+    state: UK
+    postal_code: '81053'
+  first_name: Oleg
+  last_name: Kvasha
